@@ -13,6 +13,7 @@
 		E7E4B68A24C775A30004E7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E4B68924C775A30004E7F7 /* Assets.xcassets */; };
 		E7E4B68D24C775A30004E7F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E4B68C24C775A30004E7F7 /* Preview Assets.xcassets */; };
 		E7E4B69024C775A30004E7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E4B68E24C775A30004E7F7 /* LaunchScreen.storyboard */; };
+		E7E4B69824C776890004E7F7 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4B69724C776890004E7F7 /* ColorCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E7E4B68C24C775A30004E7F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7E4B68F24C775A30004E7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7E4B69124C775A30004E7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E4B69724C776890004E7F7 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E7E4B68324C775A10004E7F7 /* AppDelegate.swift */,
 				E7E4B68524C775A10004E7F7 /* SceneDelegate.swift */,
 				E7E4B68724C775A10004E7F7 /* ContentView.swift */,
+				E7E4B69724C776890004E7F7 /* ColorCircle.swift */,
 				E7E4B68924C775A30004E7F7 /* Assets.xcassets */,
 				E7E4B68E24C775A30004E7F7 /* LaunchScreen.storyboard */,
 				E7E4B69124C775A30004E7F7 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7E4B68424C775A10004E7F7 /* AppDelegate.swift in Sources */,
+				E7E4B69824C776890004E7F7 /* ColorCircle.swift in Sources */,
 				E7E4B68624C775A10004E7F7 /* SceneDelegate.swift in Sources */,
 				E7E4B68824C775A10004E7F7 /* ContentView.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				DEVELOPMENT_TEAM = 883VHW277J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Lesson1_HW3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				DEVELOPMENT_TEAM = 883VHW277J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Lesson1_HW3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
