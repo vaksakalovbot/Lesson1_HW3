@@ -57,20 +57,17 @@ struct ContentView: View {
     
     private func update() {
         buttonTitle = "NEXT"
+        opacityRed = 0.2
+        opacityYellow = 0.2
+        opacityGreen = 0.2
         switch nextColorOn {
         case .red:
             opacityRed = 1.0
-            opacityYellow = 0.2
-            opacityGreen = 0.2
             nextColorOn = .yellow
         case .yellow:
-            opacityRed = 0.2
             opacityYellow = 1.0
-            opacityGreen = 0.2
             nextColorOn = .green
         case .green:
-            opacityRed = 0.2
-            opacityYellow = 0.2
             opacityGreen = 1.0
             nextColorOn = .red
         }
